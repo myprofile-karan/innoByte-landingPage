@@ -1,0 +1,96 @@
+.main {
+  padding: 30px 0;
+}
+.links {
+  display: flex;
+}
+.links ul {
+  margin-top: 10px;
+  list-style: none;
+}
+.links ul a {
+  text-decoration: none;
+  color: #4f5665;
+  transition: 0.3s;
+}
+.links ul a:hover{
+    color: #f53855;
+}
+.account {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.signin {
+  background-color: white;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  padding: 10px 20px;
+
+}
+.signin:hover{
+    outline: 1px solid #e2e3e7;
+}
+.signup {
+  background-color: white;
+  padding: 10px 30px;
+  border: none;
+  outline: 1px solid #f53855;
+  color: #f53855;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.signup:hover {
+  background-color: #f53855;
+  color: white;
+}
+.sidebar {
+  display: none;
+}
+
+@media (max-width: 991.98px) {
+  .main {
+    padding: 5px 0;
+  }
+  .nav {
+    justify-content: space-between;
+  }
+  .links {
+    display: none;
+  }
+  .account {
+    display: none;
+  }
+  .sidebar {
+    display: block;
+  }
+  .sidebar button img {
+    width: 30%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .main {
+    padding: 5px 0;
+  }
+  .sidebar {
+    display: block;
+  }
+  .sidebar button img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 578px) {
+  .main {
+    padding: 5px 0;
+  }
+  .sidebar {
+    display: block;
+  }
+  .sidebar button img {
+    width: 70%;
+  }
+}

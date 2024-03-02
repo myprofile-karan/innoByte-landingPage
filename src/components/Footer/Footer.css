@@ -1,0 +1,37 @@
+.footer{
+    display: flex;
+    align-items: center;
+    pad: 20px 0;
+    height: 550px;
+}
+.footer .container{
+    margin-top: 5rem;
+}
+h5{
+    font-weight: bold;
+}
+.footer-links{
+    margin: 1.5rem 0;
+}
+.footer-links a {
+  text-decoration: none;
+  color: #4f5665;
+
+}
+@media (max-width: 767px) {
+    .footer{
+        padding: 20px 0;
+    } 
+    .footer-first{
+        margin: 2rem 0;
+    }
+    .footer-first p{
+        margin-left: 3rem;
+    }
+    .footer-links{
+        margin: 1rem 0;
+    }
+    .footer-links a{
+        font-size: 0.8rem;
+    }
+}

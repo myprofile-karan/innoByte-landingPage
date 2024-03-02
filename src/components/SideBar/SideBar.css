@@ -1,0 +1,30 @@
+.offcanvas{
+    width: 33% !important;
+}
+.offcanvas-body{
+    padding: 5px;
+    width: 100%;
+}
+.offcanvas-body ul{
+    width: 100%;
+    padding: 0;
+    list-style: none;
+}
+.offcanvas-body ul li a{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.offcanvas-body ul li a:hover{
+    background-color: #F8F8F8;
+}
+
+@media (max-width: 578px) {
+    .offcanvas{
+        width: 50% !important;
+    }
+  }

@@ -1,0 +1,34 @@
+.padding-section{
+    margin-bottom: 50px;
+    padding-left: 6rem;
+    padding-top: 2rem;
+}
+.lists{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.check{
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    background-color: rgb(16, 165, 16);
+    border-radius: 100%;
+}
+
+@media (max-width:568px) {
+    .padding-section{
+        padding: 2rem;
+        text-align: center;
+    }
+    .lists{
+        margin: 0 auto;
+        display: inline-block;
+        padding: 0;
+        gap: 10px;
+    }
+    .lists>div{
+        margin: 12px 0;
+    }
+}

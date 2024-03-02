@@ -1,0 +1,25 @@
+.detail-container{
+    padding: 40px 0;
+}
+.detail-center img {
+  object-fit: contain;
+}
+.info span {
+  font-size: 1.3rem;
+}
+.rounded-lg {
+  border-radius: 10px;
+  box-shadow: 0px 5px 2px 0.5px rgb(208, 202, 202),
+    0px 15px 50px 50px rgb(242, 242, 242);
+}
+@media (max-width: 568px) {
+  .detail-container {
+    padding: 0 20px;
+  }
+  .detail-center img {
+    width: 30%;
+  }
+  .info span {
+    font-size: 1rem;
+  }
+}
